@@ -1,0 +1,392 @@
+[
+  {
+    "source": "^user clicks Log button$",
+    "steps": [
+      {
+        "name": "user clicks Log button",
+        "aggregatedDurations": {
+          "average": 8.477339687,
+          "median": 8.451902683
+        },
+        "durations": [
+          {
+            "duration": 8.3562149,
+            "location": "src/main/java/features/freecrm.feature:11"
+          },
+          {
+            "duration": 8.451902683,
+            "location": "src/main/java/features/freecrm.feature:24"
+          },
+          {
+            "duration": 8.623901478,
+            "location": "src/main/java/features/freecrm.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify deals record displayed$",
+    "steps": [
+      {
+        "name": "verify deals record displayed",
+        "aggregatedDurations": {
+          "average": 0.136274119,
+          "median": 0.136274119
+        },
+        "durations": [
+          {
+            "duration": 0.136274119,
+            "location": "src/main/java/features/freecrm.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on save$",
+    "steps": [
+      {
+        "name": "click on save",
+        "aggregatedDurations": {
+          "average": 3.94351103,
+          "median": 3.94351103
+        },
+        "durations": [
+          {
+            "duration": 3.94351103,
+            "location": "src/main/java/features/freecrm.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user open the browser$",
+    "steps": [
+      {
+        "name": "user open the browser",
+        "aggregatedDurations": {
+          "average": 21.025463057,
+          "median": 14.837345571
+        },
+        "durations": [
+          {
+            "duration": 33.71456181,
+            "location": "src/main/java/features/freecrm.feature:5"
+          },
+          {
+            "duration": 14.837345571,
+            "location": "src/main/java/features/freecrm.feature:18"
+          },
+          {
+            "duration": 14.52448179,
+            "location": "src/main/java/features/freecrm.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on contacts$",
+    "steps": [
+      {
+        "name": "user clicks on contacts",
+        "aggregatedDurations": {
+          "average": 4.95521991,
+          "median": 4.95521991
+        },
+        "durations": [
+          {
+            "duration": 4.95521991,
+            "location": "src/main/java/features/freecrm.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^navigate back on deals$",
+    "steps": [
+      {
+        "name": "navigate back on deals",
+        "aggregatedDurations": {
+          "average": 4.041163451,
+          "median": 4.041163451
+        },
+        "durations": [
+          {
+            "duration": 4.041163451,
+            "location": "src/main/java/features/freecrm.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^validate logged in username$",
+    "steps": [
+      {
+        "name": "validate logged in username",
+        "aggregatedDurations": {
+          "average": 0.779300128,
+          "median": 0.779300128
+        },
+        "durations": [
+          {
+            "duration": 0.779300128,
+            "location": "src/main/java/features/freecrm.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks back on contacts$",
+    "steps": [
+      {
+        "name": "user clicks back on contacts",
+        "aggregatedDurations": {
+          "average": 3.443497411,
+          "median": 3.443497411
+        },
+        "durations": [
+          {
+            "duration": 3.443497411,
+            "location": "src/main/java/features/freecrm.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter deals details$",
+    "steps": [
+      {
+        "name": "enter deals details",
+        "aggregatedDurations": {
+          "average": 27.037515232,
+          "median": 27.037515232
+        },
+        "durations": [
+          {
+            "duration": 27.037515232,
+            "location": "src/main/java/features/freecrm.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close application$",
+    "steps": [
+      {
+        "name": "close application",
+        "aggregatedDurations": {
+          "average": 2.88066011,
+          "median": 2.350772177
+        },
+        "durations": [
+          {
+            "duration": 2.350772177,
+            "location": "src/main/java/features/freecrm.feature:13"
+          },
+          {
+            "duration": 4.029349964,
+            "location": "src/main/java/features/freecrm.feature:34"
+          },
+          {
+            "duration": 2.261858191,
+            "location": "src/main/java/features/freecrm.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify contact saved$",
+    "steps": [
+      {
+        "name": "verify contact saved",
+        "aggregatedDurations": {
+          "average": 0.130951794,
+          "median": 0.130951794
+        },
+        "durations": [
+          {
+            "duration": 0.130951794,
+            "location": "src/main/java/features/freecrm.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Deals New button$",
+    "steps": [
+      {
+        "name": "user clicks on Deals New button",
+        "aggregatedDurations": {
+          "average": 3.788533177,
+          "median": 3.788533177
+        },
+        "durations": [
+          {
+            "duration": 3.788533177,
+            "location": "src/main/java/features/freecrm.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on Login button$",
+    "steps": [
+      {
+        "name": "user click on Login button",
+        "aggregatedDurations": {
+          "average": 16.899523847,
+          "median": 14.776947063
+        },
+        "durations": [
+          {
+            "duration": 21.555079934,
+            "location": "src/main/java/features/freecrm.feature:7"
+          },
+          {
+            "duration": 14.366544546,
+            "location": "src/main/java/features/freecrm.feature:20"
+          },
+          {
+            "duration": 14.776947063,
+            "location": "src/main/java/features/freecrm.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters contact details$",
+    "steps": [
+      {
+        "name": "user enters contact details",
+        "aggregatedDurations": {
+          "average": 10.497568577,
+          "median": 10.497568577
+        },
+        "durations": [
+          {
+            "duration": 10.497568577,
+            "location": "src/main/java/features/freecrm.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify contact record displayed$",
+    "steps": [
+      {
+        "name": "verify contact record displayed",
+        "aggregatedDurations": {
+          "average": 0.133170647,
+          "median": 0.133170647
+        },
+        "durations": [
+          {
+            "duration": 0.133170647,
+            "location": "src/main/java/features/freecrm.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on login page$",
+    "steps": [
+      {
+        "name": "user is on login page",
+        "aggregatedDurations": {
+          "average": 0.171216545,
+          "median": 0.110685271
+        },
+        "durations": [
+          {
+            "duration": 0.330164991,
+            "location": "src/main/java/features/freecrm.feature:6"
+          },
+          {
+            "duration": 0.072799375,
+            "location": "src/main/java/features/freecrm.feature:19"
+          },
+          {
+            "duration": 0.110685271,
+            "location": "src/main/java/features/freecrm.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter username and password$",
+    "steps": [
+      {
+        "name": "user enter username and password",
+        "aggregatedDurations": {
+          "average": 4.382684157,
+          "median": 5.572596279
+        },
+        "durations": [
+          {
+            "duration": 1.897088411,
+            "location": "src/main/java/features/freecrm.feature:8"
+          },
+          {
+            "duration": 5.678367783,
+            "location": "src/main/java/features/freecrm.feature:21"
+          },
+          {
+            "duration": 5.572596279,
+            "location": "src/main/java/features/freecrm.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on Contacts new button$",
+    "steps": [
+      {
+        "name": "user click on Contacts new button",
+        "aggregatedDurations": {
+          "average": 5.523753489,
+          "median": 5.523753489
+        },
+        "durations": [
+          {
+            "duration": 5.523753489,
+            "location": "src/main/java/features/freecrm.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on deals$",
+    "steps": [
+      {
+        "name": "user click on deals",
+        "aggregatedDurations": {
+          "average": 3.70341978,
+          "median": 3.70341978
+        },
+        "durations": [
+          {
+            "duration": 3.70341978,
+            "location": "src/main/java/features/freecrm.feature:45"
+          }
+        ]
+      }
+    ]
+  }
+]

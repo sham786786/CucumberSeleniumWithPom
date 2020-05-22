@@ -1,0 +1,40 @@
+Feature: Free CRM application test
+
+  Scenario: Login to Free CRM HomePage   # src/main/java/features/freecrm.feature:3
+    Given user open the browser          # loginSteps.user_open_the_browser()
+    When user is on login page           # loginSteps.user_is_on_login_page()
+    Then user click on Login button      # loginSteps.user_click_on_login_button()
+    And user enter username and password # loginSteps.user_enter_username_and_password(DataTable)
+    And user clicks Log button           # loginSteps.user_clicks_log_button()
+    And validate logged in username      # loginSteps.validate_logged_in_username()
+    And close application                # loginSteps.close_application()
+
+  Scenario: Create Contacts               # src/main/java/features/freecrm.feature:16
+    Given user open the browser           # loginSteps.user_open_the_browser()
+    When user is on login page            # loginSteps.user_is_on_login_page()
+    Then user click on Login button       # loginSteps.user_click_on_login_button()
+    And user enter username and password  # loginSteps.user_enter_username_and_password(DataTable)
+    And user clicks Log button            # loginSteps.user_clicks_log_button()
+    And user clicks on contacts           # contactSteps.user_clicks_on_contacts()
+    And user click on Contacts new button # contactSteps.user_click_on_contacts_new_button()
+    And user enters contact details       # contactSteps.user_enters_contact_details(DataTable)
+    And click on save                     # contactSteps.click_on_save()
+    And verify contact saved              # contactSteps.verify_contact_saved()
+    And user clicks back on contacts      # contactSteps.user_clicks_back_on_contacts()
+    And verify contact record displayed   # contactSteps.verify_contact_record_displayed()
+    And close application                 # loginSteps.close_application()
+
+  Scenario: Create Deals                 # src/main/java/features/freecrm.feature:36
+    Given user open the browser          # loginSteps.user_open_the_browser()
+    When user is on login page           # loginSteps.user_is_on_login_page()
+    Then user click on Login button      # loginSteps.user_click_on_login_button()
+    And user enter username and password # loginSteps.user_enter_username_and_password(DataTable)
+    And user clicks Log button           # loginSteps.user_clicks_log_button()
+    And user click on deals              # dealSteps.user_click_on_deals()
+    And user clicks on Deals New button  # dealSteps.user_clicks_on_deals_new_button()
+    And enter deals details              # dealSteps.enter_deals_details(DataTable)
+    #And save deals
+    #And verify deals submitted
+    And navigate back on deals           # dealSteps.navigate_back_on_deals()
+    And verify deals record displayed    # dealSteps.verify_deals_record_displayed()
+    And close application                # loginSteps.close_application()

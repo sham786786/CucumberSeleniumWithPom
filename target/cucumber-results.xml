@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="229.624541">
+<testcase classname="Free CRM application test" name="Login to Free CRM HomePage" time="68.983182">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When user is on login page..................................................passed
+Then user click on Login button.............................................passed
+And user enter username and password........................................passed
+And user clicks Log button..................................................passed
+And validate logged in username.............................................passed
+And close application.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application test" name="Create Contacts" time="76.063983">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When user is on login page..................................................passed
+Then user click on Login button.............................................passed
+And user enter username and password........................................passed
+And user clicks Log button..................................................passed
+And user clicks on contacts.................................................passed
+And user click on Contacts new button.......................................passed
+And user enters contact details.............................................passed
+And click on save...........................................................passed
+And verify contact saved....................................................passed
+And user clicks back on contacts............................................passed
+And verify contact record displayed.........................................passed
+And close application.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application test" name="Create Deals" time="84.577376">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When user is on login page..................................................passed
+Then user click on Login button.............................................passed
+And user enter username and password........................................passed
+And user clicks Log button..................................................passed
+And user click on deals.....................................................passed
+And user clicks on Deals New button.........................................passed
+And enter deals details.....................................................passed
+And navigate back on deals..................................................passed
+And verify deals record displayed...........................................passed
+And close application.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
